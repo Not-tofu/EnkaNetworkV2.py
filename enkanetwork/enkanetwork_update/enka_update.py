@@ -2,9 +2,8 @@ import aiohttp
 import asyncio
 import json
 
-# temproary put master to dee14cc45e977782e1e93be9d3ed4b0d12e90e5a
-DATA_URL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/dee14cc45e977782e1e93be9d3ed4b0d12e90e5a/{FOLDER}/{value}"
-LANG_URL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/dee14cc45e977782e1e93be9d3ed4b0d12e90e5a/{LANG_FOLDER}/TextMap{key}.json"
+DATA_URL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/{FOLDER}/{value}"
+LANG_URL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/{LANG_FOLDER}/TextMap{key}.json"
 _PATH = None
 
 from .pathfinding import search
